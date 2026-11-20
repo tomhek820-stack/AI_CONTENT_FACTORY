@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "enabled": false,
+  "fonts": {
+    "title": {
+      "family": "Amiri",
+      "file": "Amiri-Bold.ttf",
+      "verified": true
+    },
+    "body": {
+      "family": "IBMPlexSansArabic",
+      "file": "IBMPlexSansArabic-Medium.ttf",
+      "verified": true
+    },
+    "wisdom": {
+      "family": "Amiri",
+      "file": "Amiri-Bold.ttf",
+      "verified": true
+    },
+    "fallback": {
+      "family": "Amiri",
+      "file": "Amiri-Bold.ttf"
+    }
+  },
+  "palette": {
+    "ink": "#0B0A08",
+    "turquoise": "#0FB5A8",
+    "paper": "#E8DCC8",
+    "gold": "#C9A227",
+    "agate": "#B33A3A"
+  },
+  "layout": {
+    "margin_side": 96,
+    "safe_top": 220,
+    "safe_bottom": 420,
+    "align": "right",
+    "grid": {
+      "motif_corner": {
+        "x": 984,
+        "y": 180,
+        "size": 48
+      },
+      "hero_word_y": 760,
+      "gold_rule_y": 820,
+      "karaoke_top": 1380,
+      "karaoke_bottom": 1560,
+      "progress_y": 1620
+    }
+  },
+  "rhythm": {
+    "comma_ms": 180,
+    "period_ms": 320,
+    "wisdom_ms": 500,
+    "sentence_gap_ms": 100
+  },
+  "motion": {
+    "entry_direction": "right",
+    "entry_offset_px": 24,
+    "connection_reveal_steps": 6,
+    "connection_reveal_ms": 300
+  },
+  "audio": {
+    "lufs_target": -16.0,
+    "true_peak": -1.5,
+    "lra": 7.0,
+    "rate_min": 0.92,
+    "rate_max": 1.06
+  },
+  "level3": {
+    "enabled": false,
+    "scene_graph": false,
+    "rtl_motion": false,
+    "waqf_rhythm": false,
+    "connection_reveal": false,
+    "kufic_motif": false
+  },
+  "background": {
+    "style": "horizon_glow",
+    "horizon_y_ratio": 0.42,
+    "horizon_alpha": 25,
+    "horizon_blur": 30,
+    "horizon_thickness": 3,
+    "vignette_enabled": false
+  }
+}

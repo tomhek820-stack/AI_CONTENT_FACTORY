@@ -1,0 +1,229 @@
+{
+ "total": 51.666667,
+ "fps": 30,
+ "sample_rate": 48000,
+ "synthetic": false,
+ "scenes": [
+  {
+   "id": "hook",
+   "kind": "intro",
+   "title_ar": "ينساك بعد 10 رسائل؟",
+   "latin": "ذاكرة الذكاء",
+   "icon": "spark",
+   "chips": [],
+   "lines": [
+    {
+     "tts": "تَتَحَدَّثُ مَعَهُ ساعَة، ثُمَّ يَنْسى كُلَّ شَيْء. السَّبَبُ: نافِذَةُ السِّياق.",
+     "screen": "تتحدث معه ساعة ثم ينسى كل شيء. السبب: نافذة السياق",
+     "hl": [
+      "ساعة",
+      "نافذة السياق"
+     ],
+     "dur": 7.528,
+     "file": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/voice/lines/hook_00_82516a9bd8.wav",
+     "start": 0.266667,
+     "end": 7.794667
+    }
+   ],
+   "visual_start": 0.0,
+   "span": 7.8,
+   "frames": 234,
+   "card_image": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/output/scenes/hybrid_card_00.png"
+  },
+  {
+   "id": "real1",
+   "kind": "tool",
+   "title_ar": "لقطة حقيقية من Termux",
+   "latin": "TERMUX",
+   "icon": "chat",
+   "chips": [],
+   "lines": [
+    {
+     "tts": "هذِهِ هِيَ الْأَدَواتُ الَّتي تَصْنَعُ هذَا الْفيدْيو، كُلُّها عَلَى هاتِفِكَ.",
+     "screen": "هذه هي الأدوات التي تصنع هذا الفيديو، كلها على هاتفك",
+     "hl": [
+      "الأدوات",
+      "هاتفك"
+     ],
+     "dur": 5.02,
+     "file": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/voice/lines/real1_00_4489b1ad42.wav",
+     "start": 8.266667,
+     "end": 13.286667
+    }
+   ],
+   "visual_start": 7.8,
+   "span": 5.5,
+   "frames": 165,
+   "real_video": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/real_demos/videos/01_termux_pro.mp4",
+   "card_image": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/output/scenes/hybrid_card_01.png"
+  },
+  {
+   "id": "problem",
+   "kind": "tool",
+   "title_ar": "نافذة السياق",
+   "latin": "ذاكرة محدودة",
+   "icon": "search",
+   "chips": [
+    "حد أقصى",
+    "كلمات",
+    "حذف"
+   ],
+   "lines": [
+    {
+     "tts": "كُلُّ مُحادَثَةٍ لَها حَدٌّ أَعْلى مِنَ الْكَلِمات. إِذا تَجاوَزْتَهُ، حُذِفَ الْأَقْدَم.",
+     "screen": "كل محادثة لها حد أقصى من الكلمات. إذا تجاوزته، حُذف الأقدم",
+     "hl": [
+      "حد أقصى",
+      "حُذف"
+     ],
+     "dur": 6.656,
+     "file": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/voice/lines/problem_00_30f39e27e2.wav",
+     "start": 13.733333,
+     "end": 20.389333
+    }
+   ],
+   "visual_start": 13.3,
+   "span": 7.1,
+   "frames": 213,
+   "card_image": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/output/scenes/hybrid_card_02.png"
+  },
+  {
+   "id": "real2",
+   "kind": "tool",
+   "title_ar": "لقطة حقيقية من Python",
+   "latin": "PYTHON",
+   "icon": "design",
+   "chips": [],
+   "lines": [
+    {
+     "tts": "بايثون يُعالِجُ نَصَّكَ الْعَرَبِيَّ، وَيُوصِلُ الْحُروفَ بِشَكْلٍ صَحيح.",
+     "screen": "بايثون يعالج نصك العربي، ويوصل الحروف بشكل صحيح",
+     "hl": [
+      "بايثون",
+      "يوصل"
+     ],
+     "dur": 5.156,
+     "file": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/voice/lines/real2_00_320f359f45.wav",
+     "start": 20.833333,
+     "end": 25.989333
+    }
+   ],
+   "visual_start": 20.4,
+   "span": 5.6,
+   "frames": 168,
+   "real_video": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/real_demos/videos/03_python_pro.mp4",
+   "card_image": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/output/scenes/hybrid_card_03.png"
+  },
+  {
+   "id": "solution1",
+   "kind": "tool",
+   "title_ar": "الحل الأول: التلخيص",
+   "latin": "التلخيص",
+   "icon": "video",
+   "chips": [
+    "ملخص",
+    "كل 10 رسائل"
+   ],
+   "lines": [
+    {
+     "tts": "طُلُبْ مِنْهُ أَنْ يُلَخِّصَ كُلَّ عَشْرِ رَسائِل، وَابْدَأْ مُحادَثَةً جَديدَةً بِالْمُلَخَّص.",
+     "screen": "اطلب منه تلخيص كل 10 رسائل، وابدأ محادثة جديدة بالملخص",
+     "hl": [
+      "يلخص",
+      "جديدة"
+     ],
+     "dur": 5.86,
+     "file": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/voice/lines/solution1_00_3d2cf0e92b.wav",
+     "start": 26.466667,
+     "end": 32.326667
+    }
+   ],
+   "visual_start": 26.0,
+   "span": 6.333333,
+   "frames": 190,
+   "card_image": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/output/scenes/hybrid_card_04.png"
+  },
+  {
+   "id": "real3",
+   "kind": "tool",
+   "title_ar": "لقطة حقيقية من FFmpeg",
+   "latin": "FFMPEG",
+   "icon": "spark",
+   "chips": [],
+   "lines": [
+    {
+     "tts": "إِفْ إف إمبيج يَدْمَجُ الْمَقاطِعَ وَالصَّوْتَ، وَيُخْرِجُ الْفيدْيوَ الْأَخير.",
+     "screen": "إف إف إمبيج يدمج المقاطع والصوت، ويخرج الفيديو الأخير",
+     "hl": [
+      "يدمج",
+      "الأخير"
+     ],
+     "dur": 4.732,
+     "file": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/voice/lines/real3_00_546da6f67e.wav",
+     "start": 32.766667,
+     "end": 37.498667
+    }
+   ],
+   "visual_start": 32.333333,
+   "span": 5.166667,
+   "frames": 155,
+   "real_video": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/real_demos/videos/02_ffmpeg_pro.mp4",
+   "card_image": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/output/scenes/hybrid_card_05.png"
+  },
+  {
+   "id": "solution2",
+   "kind": "tool",
+   "title_ar": "الحل الثاني والثالث",
+   "latin": "ذاكرة + برومبت",
+   "icon": "rocket",
+   "chips": [
+    "الذاكرة",
+    "برومبت ثابت"
+   ],
+   "lines": [
+    {
+     "tts": "فَعِّلْ الذاكرَةَ إِن وُجِدَت، وَاكْتُبْ قواعِدَ ثابِتَةً فِي أَوَّلِ كُلِّ مُحادَثَة.",
+     "screen": "فعّل الذاكرة إن وُجدت، واكتب قواعد ثابتة في أول كل محادثة",
+     "hl": [
+      "الذاكرة",
+      "قواعد"
+     ],
+     "dur": 5.672,
+     "file": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/voice/lines/solution2_00_3cb541b711.wav",
+     "start": 37.933333,
+     "end": 43.605333
+    }
+   ],
+   "visual_start": 37.5,
+   "span": 6.1,
+   "frames": 183,
+   "card_image": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/output/scenes/hybrid_card_06.png"
+  },
+  {
+   "id": "outro",
+   "kind": "outro",
+   "title_ar": "تابع الآن",
+   "latin": "أبو محمد المساوى",
+   "icon": "rocket",
+   "chips": [],
+   "lines": [
+    {
+     "tts": "احْفَظِ الْفيدْيو، وَتابِعْ أَبو مُحَمَّد الْمَساوى. الْمُستَقبَلُ بَدَأَ الْآن.",
+     "screen": "احفظ الفيديو وتابع أبو محمد المساوى. المستقبل بدأ الآن",
+     "hl": [
+      "احفظ",
+      "الآن"
+     ],
+     "dur": 6.592,
+     "file": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/voice/lines/outro_00_e5b444a4d5.wav",
+     "start": 44.066667,
+     "end": 50.658667
+    }
+   ],
+   "visual_start": 43.6,
+   "span": 8.066667,
+   "frames": 242,
+   "card_image": "/data/data/com.termux/files/home/AI_CONTENT_FACTORY/output/scenes/hybrid_card_07.png"
+  }
+ ]
+}

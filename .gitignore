@@ -1,0 +1,65 @@
+# ═══ Media (ضخم — يُعاد توليده) ═══
+*.mp4
+*.wav
+*.mp3
+*.mov
+*.avi
+
+# ═══ Pre-rendered assets (تُولَّد برمجياً) ═══
+assets/backgrounds/
+assets/images/
+assets/music/
+assets/icons/cache/
+
+# ═══ Outputs ═══
+output/
+logs/
+spike_tmp/
+archive/
+golden/
+real_demos/
+voice/lines/
+tmp/
+scripts/publish_*.json
+
+# ═══ Python ═══
+__pycache__/
+*.pyc
+*.pyo
+
+# ═══ Termux/OS ═══
+.DS_Store
+*.swp
+*.log
+diagnostics_*.txt
+
+# ═══ Secrets ═══
+.env
+*.key
+credentials.json
+
+# ═══ Accidental patches (استُبدلت بـ tools/) ═══
+-t
+-vf
+*.bak
+*.bak_p0
+artest.py
+config.json
+create_pro_screenshots.py
+download_icons.py
+fixaudio.py
+fixnames.py
+fontfix.py
+logo_name_as_mark.py
+logo_upgrade.py
+patch.py
+patch_icons.py
+patch_icons_drawing.py
+p0_fix_icon_img.py
+rebrand.py
+repair_cards.py
+stabilize_identity.py
+tashkeel_fix.py
+upgrade.py
+upgrade_bg_v4.py
+upgrade_pro.py

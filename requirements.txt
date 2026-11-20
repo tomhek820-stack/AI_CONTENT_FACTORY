@@ -1,0 +1,3 @@
+Pillow>=10.0.0
+arabic-reshaper>=3.0.0
+# اختياري: edge-tts (صوت طبيعي متصل) / piper-tts (داخل proot Debian فقط)
